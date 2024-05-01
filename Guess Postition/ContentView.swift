@@ -18,16 +18,22 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 30) {
             Text("Подвиньте слайдер, как можно ближе к: \(targetValue)")
-            Slider(
-                value: $currentValue.float(),
-                in: 0...100 //ClosedRange(range0_100, Float.init)
-            ) {
-                Text("lol")
-            } minimumValueLabel: {
+
+            HStack {
                 Text("0")
-            } maximumValueLabel: {
+                SliderRepresentation(sliderValue: $currentValue.float(), action: {})
                 Text("100")
             }
+//            Slider(
+//                value: $currentValue.float(),
+//                in: 0...100 //ClosedRange(range0_100, Float.init)
+//            ) {
+//                Text("lol")
+//            } minimumValueLabel: {
+//                Text("0")
+//            } maximumValueLabel: {
+//                Text("100")
+//            }
 
             Button("Проверь меня", action: checkMe)
                 .font(.title)

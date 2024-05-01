@@ -11,6 +11,7 @@
 		A72FDA362BE24FB400263302 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72FDA352BE24FB400263302 /* ContentView.swift */; };
 		A72FDA382BE24FB800263302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72FDA372BE24FB800263302 /* Assets.xcassets */; };
 		A72FDA3B2BE24FB800263302 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72FDA3A2BE24FB800263302 /* Preview Assets.xcassets */; };
+		A7D6E1AD2BE2E4E100D4AEBA /* SliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D6E1AC2BE2E4E100D4AEBA /* SliderRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A72FDA352BE24FB400263302 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A72FDA372BE24FB800263302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72FDA3A2BE24FB800263302 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7D6E1AC2BE2E4E100D4AEBA /* SliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				A72FDA332BE24FB400263302 /* Guess_PostitionApp.swift */,
 				A72FDA352BE24FB400263302 /* ContentView.swift */,
+				A7D6E1AC2BE2E4E100D4AEBA /* SliderRepresentation.swift */,
 				A72FDA372BE24FB800263302 /* Assets.xcassets */,
 				A72FDA392BE24FB800263302 /* Preview Content */,
 			);
@@ -95,7 +98,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					A72FDA2F2BE24FB400263302 = {
 						CreatedOnToolsVersion = 14.2;
@@ -139,6 +142,7 @@
 			files = (
 				A72FDA362BE24FB400263302 /* ContentView.swift in Sources */,
 				A72FDA342BE24FB400263302 /* Guess_PostitionApp.swift in Sources */,
+				A7D6E1AD2BE2E4E100D4AEBA /* SliderRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
